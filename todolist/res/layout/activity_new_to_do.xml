@@ -5,7 +5,7 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <EditText
-        android:id="@+id/toDoItemDetailET"
+        android:id="@+id/NewToDoItemDetailET"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:maxLines="8"
@@ -17,6 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:text="@string/save" android:layout_below="@id/toDoItemDetailET"/>
+        android:text="@string/save" android:layout_below="@id/NewToDoItemDetailET"/>
 
 </RelativeLayout>

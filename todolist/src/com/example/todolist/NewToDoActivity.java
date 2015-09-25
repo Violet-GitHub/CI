@@ -24,7 +24,7 @@ public class NewToDoActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_new_to_do);
-		toDoItemDetailET = (EditText) findViewById(R.id.toDoItemDetailET);
+		toDoItemDetailET = (EditText) findViewById(R.id.NewToDoItemDetailET);
 		saveBtn = (Button) findViewById(R.id.saveBtn);	
 		saveBtn.setOnClickListener(new OnClickListener(){
 

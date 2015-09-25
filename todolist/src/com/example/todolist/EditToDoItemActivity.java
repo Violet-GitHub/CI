@@ -22,7 +22,7 @@ public class EditToDoItemActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_edit_to_do_item);
-		toDoItemDetailET = (EditText) findViewById(R.id.toDoItemDetailET);
+		toDoItemDetailET = (EditText) findViewById(R.id.editToDoItemDetailET);
 		saveToDoItemBtn = (Button) findViewById(R.id.saveToDoItemBtn);
 		item = (ToDoItem) getIntent().getSerializableExtra("toDoItem");
 		toDoItemDetailET.setText(item.getToDoItemDetail());
