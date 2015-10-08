@@ -1,4 +1,4 @@
-E:\study\GitHub\CI\todolist_login\bin\todolist_login.ap_ \
+E:\study\GitHub\CI\todolist_login\bin\todolistTest.ap_ \
  : E:\study\GitHub\CI\todolist_login\res\drawable-hdpi\ic_launcher.png \
 E:\study\GitHub\CI\todolist_login\res\drawable-ldpi\ic_launcher.png \
 E:\study\GitHub\CI\todolist_login\res\drawable-mdpi\ic_launcher.png \
