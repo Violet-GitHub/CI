@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "abc"$DeviceID
 echo "start to build APP and test app"
 cd todolist_login
 ant clean debug
